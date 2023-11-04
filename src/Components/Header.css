@@ -1,0 +1,136 @@
+/*ContactNavBar*/
+.Nav1{
+    display: flex;
+    width: 100%;
+    background-color: #fdbe33;
+    border: none;
+    padding: 1rem 0;
+    justify-content: space-around;
+}
+.ContactNav{
+    display: flex;
+    gap: 1rem;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-size: 800;
+    gap: 2rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.Number,.Email{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.Nav1SocialMediaIcons {
+    display: flex;
+    gap: 1rem;
+}
+.icons{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.icons:hover{
+    font-size: 1.4rem;
+}
+/*Navbar*/
+.Header{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.6),rgb(0,0,0,0.5)),url("./assets/banner1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+.Nav2{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.logoImg{
+    width: 100%;
+}
+.navitems{
+    display: flex;
+    align-items: center;
+    margin:0 0 0 auto;
+    gap: 2rem;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.navitems li:hover{
+    text-decoration: underline;
+    color: #fdbe33;
+    font-size: 1.22rem;
+}
+.Slider{
+    width: 50%;
+    padding: 5rem;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.HeaderHeading{
+    font-size: 3rem;
+    color: #fdbe33;
+}
+.HeaderText{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+.Donate {
+    display: flex;
+    padding: 0.65rem 2rem;
+    background: transparent;
+    border: 1px solid rgb(177, 171, 171);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 5rem auto 0 auto;
+    color: #fdbe33;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
+    cursor: pointer;
+    text-shadow: 0 1px  #bab8b4;
+  }
+  
+  .Donate:hover {
+    background-color: #fdbe33;
+    color:black;
+    border: none;
+    box-shadow: 0 2px 50px black;
+  }
+  
+  @keyframes bn13bouncy {
+    0% {
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
+    }
+    50% {
+      top: 0em;
+    }
+    100% {
+      top: 0em;
+    }
+  }

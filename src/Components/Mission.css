@@ -1,0 +1,51 @@
+.Mission{
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:8%
+}
+.MissionIMGContainer{
+    display: flex;
+    justify-content: end;
+}
+.MissionImg{
+    width: 80%;
+}
+.MissionContent{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 ;
+    gap:0.5rem;
+}
+.MissionHeading{
+    font-size: 3rem;
+    font-family: 'Playpen Sans', 'cursive';
+    color: #fdbe33;
+    text-shadow: 0 1px  #bab8b4;
+}
+
+.missionText{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+.ABoutUs{
+    padding: 0.8rem 2rem;
+    border-radius: 1rem;
+    margin: 1.5rem auto;
+    background-color: #fdbe33;
+    border: 3px solid #fdbe33;
+    color: white;
+    font-size: 1rem;
+    font-family: 'poppins';
+    box-shadow: 0 1px  #bab8b4;
+    cursor: pointer;
+}
+.ABoutUs:hover{
+    
+    box-shadow: -1px 4px 10px #bab8b4;
+}
