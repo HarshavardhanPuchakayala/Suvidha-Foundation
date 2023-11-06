@@ -1,0 +1,242 @@
+.InternshipBanner{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./assets/Meet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0 5rem 0;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.ApplyInternshipHeader{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 1.4rem;
+}
+.ApplyInternshipSubHeading{    
+    font-family:'Poppins', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+.ApplyNow {
+    display: flex;
+    padding: 0.65rem 2rem;
+    background: transparent;
+    border: 1px solid rgb(177, 171, 171);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2rem auto 0 auto;
+    color: #fdbe33;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
+    cursor: pointer;
+    text-shadow: 0 1px  #bab8b4;
+  }
+  
+  .ApplyNow:hover {
+    background-color: #fdbe33;
+    color:black;
+    border: none;
+    box-shadow: 0 2px 50px black;
+  }
+  
+  @keyframes bn13bouncy {
+    0% {
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
+    }
+    50% {
+      top: 0em;
+    }
+    100% {
+      top: 0em;
+    }
+  }
+  .IntershipMain{
+        margin: 4rem auto;
+        width: 90%;
+  }
+  .InternMeet{
+    display: flex;
+    margin: 2rem auto;
+    gap: 5rem;
+  }
+  .InternMeet img{
+    width: 50%;
+    border-radius: 1rem;
+  }
+  .InternContent{
+    padding: 4rem;
+  }
+  .InternContent h1{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 2.5rem;
+  }
+  .InternContent p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-top: 0.5rem;
+  }
+  .Review{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("./assets/Contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .InternReview{
+        width: 80%;
+        margin: 0 auto;
+        padding: 4rem;
+  }
+  .InternReview img{
+       width: 3%;
+       border-radius: 2rem;
+  }
+  .Qoute{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 1.5rem;
+  }
+  .InternReview span{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    margin: 1rem auto;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600; 
+  }
+  /*Mobile devices*/
+@media  only screen and (min-width:320px) and (max-width:480px) {
+.Content{
+    width: 100%;
+}
+  .ApplyInternshipHeader{
+    font-size: 1.2rem;
+}
+.ApplyInternshipSubHeading{
+    font-size: 3rem;
+    text-align: center;
+}
+  /*InternshipBlog*/
+ 
+  .InternMeet{
+    flex-direction: column;
+    margin: 0rem auto;
+    gap: 1rem;
+  }
+  .InternMeet img{
+    width: 100%;
+    border-radius: 1rem;
+  }
+  .InternContent{
+    padding: 1rem;
+  }
+  .InternContent h1{
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+  }
+  .InternContent p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  /*Review*/
+  .InternReview{
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 0;
+  }
+  .InternReview img{
+       width: 10%;
+       border-radius: 100%;
+  }
+  .Qoute{
+    font-size: 1.5rem;
+  }
+  .InternReview span{
+    gap:0.5rem;
+    margin: 0.5rem auto;
+  }
+}
+
+/*iPads, Tablets */
+@media  only screen and (min-width:481px) and (max-width:768px) {
+  .InternshipBanner{
+    width: 100%;
+  }
+  .Content{
+    width: 100%;
+}
+  .ApplyInternshipHeader{
+    font-size: 1.2rem;
+}
+.ApplyInternshipSubHeading{
+    font-size: 3rem;
+    text-align: center;
+}
+  /*InternshipBlog*/
+ 
+  .InternMeet{
+    flex-direction: column;
+    margin: 0rem auto;
+    gap: 1rem;
+  }
+  .InternMeet img{
+    width: 100%;
+    border-radius: 1rem;
+  }
+  .InternContent{
+    padding: 1rem;
+  }
+  .InternContent h1{
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+  }
+  .InternContent p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  /*Review*/
+  .InternReview{
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 0;
+  }
+  .InternReview img{
+       width: 10%;
+       border-radius: 100%;
+  }
+  .Qoute{
+    font-size: 1.5rem;
+  }
+  .InternReview span{
+    gap:0.5rem;
+    margin: 0.5rem auto;
+  }
+}
+

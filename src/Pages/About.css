@@ -1,0 +1,538 @@
+.Aboutbanner{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./assets/Aboutbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 8rem 5rem 8rem;
+    background-position: center;
+}
+.AboutbannerSubHeading{
+    font-family:'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 1.2rem;
+    margin: 4rem 0 0 8rem;
+}
+.AboutbannerHeading{
+    font-size: 3rem;
+    font-family: 'poppins';
+    color: whitesmoke;
+    margin-left: 8rem;
+
+}
+/*KnowAboutUs*/
+.KnowAboutUs{
+    width:90%;
+    margin: 3.5rem auto 9rem auto;
+}
+.KnowAboutUsSideHeading{
+    font-family:'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 1.5rem;
+}
+.Line{
+    font-size: 3rem;
+}
+.KnowAboutUsFlex{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    width: 90%;
+    margin: 0 auto;
+}
+.KnowAboutUSHeading{
+    padding: 6rem 3rem;
+    font-size: 2rem;
+    color: #fdbe33;
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+}
+.KnowAboutUsContent{
+    padding: 2rem;
+}
+.KnowAboutUsSubHeading{
+    color: #fdbe33;
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+ 
+}
+.KnowAboutUsText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+/*MissionVission*/
+.MissionVision{
+    width: 100%;
+    background-color: #f0e2c2;
+    position: relative;
+}
+.MVGrid{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2,1fr)
+}
+.OurMission ,.OurVision{
+    margin-top: 6rem;
+    padding: 5rem 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.OurMission p,.OurVision p{
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.OurMission h5,.OurVision h5{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.MVImg{
+   
+    position: absolute;
+    bottom: 80%;
+    left: 2rem;
+}
+.MVImg img{
+    display: flex;
+    border-radius:1rem ;
+    width: 80%;
+    margin: 0 auto;
+}
+/*Team*/
+.TeamSection{
+width: 90%;
+margin: 3rem auto;
+}
+.TeamHeading{
+    font-family: 'Playpen Sans','Poppins', 'sans-serif';
+    color: #fdbe33;
+    font-size: 3rem;
+    text-align: center;
+}
+.TeamSubHeading{
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*Team*/
+.TeamGrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    margin: 5rem auto;
+    gap: 3rem;
+}
+.Profile{
+    position: relative;
+    bottom: 1rem;
+}
+
+.Profile img{
+    width: 100%;
+    
+}
+.TeamContent{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem ;
+    background-color: #fdbe33;
+    width: 80%;
+}
+.Profile h1{
+    font-family: 'Playpen Sans','Poppins', 'sans-serif';
+}
+.Profile p{
+    font-family:'Poppins', 'sans-serif';
+    text-align: center;
+}
+.GroupIcons{
+    display: flex;
+    gap: 0.5rem;
+    width: 60%;
+    align-items: center;
+    margin: 1rem auto 0 auto;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.icon:hover{
+    cursor: pointer;
+    color: #fff;
+}
+/*Mobile devices*/
+@media  only screen and (min-width:320px) and (max-width:480px){
+    .Aboutbanner{
+        padding: 8rem 0rem 5rem 0rem;
+    }
+    .AboutbannerSubHeading{
+        font-size: 1.2rem;
+        margin: 4rem 0 0 4rem;
+    }
+    .AboutbannerHeading{
+        font-size: 2.5rem;
+        margin-left: 4rem;
+    
+    }
+    /*KnowAboutUs*/
+    .KnowAboutUs{
+        width:90%;
+        margin: 3.5rem auto 9rem auto;
+    }
+    .KnowAboutUsSideHeading{
+        align-items: center;
+        gap: 0.2rem;
+        font-size: 1.5rem;
+    }
+    .Line{
+        font-size: 1.5rem;
+    }
+    .KnowAboutUsFlex{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .KnowAboutUSHeading{
+        padding: 1rem 0 0.2rem 0;
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .KnowAboutUsContent{
+        padding: 1rem 0 0 0;
+    }
+
+    .KnowAboutUsText{
+        font-size: 1.2rem;
+    }
+    /*MissionVission*/
+
+    .MVGrid{
+        width: 90%;
+        margin: 0 auto;
+        gap: 0;
+        grid-template-columns: 1fr;
+    }
+    .OurMission{
+        margin-top: 0;
+        padding: 5rem 2rem 0 2rem;
+    }
+    .OurVision{
+        margin-top: 0;
+        padding: 2rem 2rem;
+    }
+    .OurMission p,.OurVision p{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    .OurMission h5,.OurVision h5{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    .MVImg{
+        position: absolute;
+        top:-2rem;
+        left: 0;
+    }
+    .MVImg img{
+        display: flex;
+        border-radius:1rem ;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+/*Team*/
+.TeamGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 5rem auto;
+    gap: 3rem;
+}
+.Profile{
+    position: relative;
+    bottom: 1rem;
+}
+
+.Profile img{
+    width: 100%;
+    
+}
+.TeamContent{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem ;
+    background-color: #fdbe33;
+    width: 82%;
+    text-align: center;
+}
+.Profile h1{
+    font-family: 'Playpen Sans','Poppins', 'sans-serif';
+}
+.Profile p{
+    font-family:'Poppins', 'sans-serif';
+    text-align: center;
+}
+.GroupIcons{
+    display: flex;
+    gap: 0.5rem;
+    width: 60%;
+    align-items: center;
+    margin: 1rem auto 0 auto;
+}
+.icon{
+    font-size: 1.5rem;
+}
+}
+
+/*iPads, Tablets */
+@media  only screen and (min-width:481px) and (max-width:768px) {
+    .Aboutbanner{
+        padding: 8rem 0rem 5rem 0rem;
+    }
+    .AboutbannerSubHeading{
+        font-size: 1.2rem;
+        margin: 4rem 0 0 4rem;
+    }
+    .AboutbannerHeading{
+        font-size: 2.5rem;
+        margin-left: 4rem;
+    
+    }
+    /*KnowAboutUs*/
+    .KnowAboutUs{
+        width:90%;
+        margin: 3.5rem auto 9rem auto;
+    }
+    .KnowAboutUsSideHeading{
+        align-items: center;
+        gap: 0.2rem;
+        font-size: 1.5rem;
+    }
+    .Line{
+        font-size: 1.5rem;
+    }
+    .KnowAboutUsFlex{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .KnowAboutUSHeading{
+        padding: 1rem 0 0.2rem 0;
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .KnowAboutUsContent{
+        padding: 1rem 0 0 0;
+    }
+
+    .KnowAboutUsText{
+        font-size: 1.2rem;
+    }
+    /*MissionVission*/
+
+    .MVGrid{
+        width: 90%;
+        margin: 0 auto;
+        gap: 0;
+        grid-template-columns: 1fr;
+    }
+    .OurMission{
+        margin-top: 0;
+        padding: 5rem 2rem 0 2rem;
+    }
+    .OurVision{
+        margin-top: 0;
+        padding: 2rem 2rem;
+    }
+    .OurMission p,.OurVision p{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    .OurMission h5,.OurVision h5{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    .MVImg{
+        position: absolute;
+        top:-4rem;
+        left: 0;
+    }
+    .MVImg img{
+        display: flex;
+        border-radius:1rem ;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+/*Team*/
+.TeamGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 5rem auto;
+    gap: 3rem;
+}
+.Profile{
+    position: relative;
+    bottom: 1rem;
+    margin: 0 auto;
+}
+
+.Profile img{
+    width: 90%;
+    margin: 0 auto;
+}
+.TeamContent{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem ;
+    background-color: #fdbe33;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.Profile h1{
+    font-family: 'Playpen Sans','Poppins', 'sans-serif';
+}
+.Profile p{
+    font-family:'Poppins', 'sans-serif';
+    text-align: center;
+}
+.GroupIcons{
+    display: flex;
+    gap: 0.5rem;
+    width: 60%;
+    align-items: center;
+    margin: 1rem auto 0 auto;
+}
+.icon{
+    font-size: 1.5rem;
+}
+}
+/*Small screens, laptops */
+@media only screen and (min-width:769px)and(max-width:1024px) {
+    .Aboutbanner{
+        padding: 8rem 0rem 5rem 0rem;
+    }
+    .AboutbannerSubHeading{
+        font-size: 1.2rem;
+        margin: 4rem 0 0 4rem;
+    }
+    .AboutbannerHeading{
+        font-size: 2.5rem;
+        margin-left: 4rem;
+    
+    }
+    /*KnowAboutUs*/
+    .KnowAboutUs{
+        width:90%;
+        margin: 3.5rem auto 9rem auto;
+    }
+    .KnowAboutUsSideHeading{
+        align-items: center;
+        gap: 0.2rem;
+        font-size: 1.5rem;
+    }
+    .Line{
+        font-size: 1.5rem;
+    }
+    .KnowAboutUsFlex{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .KnowAboutUSHeading{
+        padding: 1rem 0 0.2rem 0;
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .KnowAboutUsContent{
+        padding: 1rem 0 0 0;
+    }
+
+    .KnowAboutUsText{
+        font-size: 1.2rem;
+    }
+    /*MissionVission*/
+
+    .MVGrid{
+        width: 90%;
+        margin: 0 auto;
+        gap: 0;
+        grid-template-columns: 1fr;
+    }
+    .OurMission{
+        margin-top: 0;
+        padding: 5rem 2rem 0 2rem;
+    }
+    .OurVision{
+        margin-top: 0;
+        padding: 2rem 2rem;
+    }
+    .OurMission p,.OurVision p{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    .OurMission h5,.OurVision h5{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    .MVImg{
+        position: absolute;
+        top:-2rem;
+        left: 0;
+    }
+    .MVImg img{
+        display: flex;
+        border-radius:1rem ;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+/*Team*/
+.TeamGrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    margin: 5rem auto;
+    gap: 3rem;
+}
+.Profile{
+    position: relative;
+    bottom: 1rem;
+}
+
+.Profile img{
+    width: 100%;
+    
+}
+.TeamContent{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem ;
+    background-color: #fdbe33;
+    width: 80%;
+}
+.Profile h1{
+    font-family: 'Playpen Sans','Poppins', 'sans-serif';
+}
+.Profile p{
+    font-family:'Poppins', 'sans-serif';
+    text-align: center;
+}
+.GroupIcons{
+    display: flex;
+    gap: 0.5rem;
+    width: 60%;
+    align-items: center;
+    margin: 1rem auto 0 auto;
+}
+.icon{
+    font-size: 1.5rem;
+}
+}
+

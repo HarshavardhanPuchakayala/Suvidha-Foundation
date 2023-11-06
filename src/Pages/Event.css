@@ -1,0 +1,158 @@
+.Eventbanner{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./assets/Contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem;
+}
+.EventbannersubHeading{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.EventbannerHeading{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    margin-left: 2rem;
+}
+.EventHeading{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 3rem;
+    margin: 2rem auto;
+    width: 50%;
+    text-align: center;
+}
+
+.EventMain{
+    width: 90%;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.EventItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.EventItemimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.EventItemName{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.EventItemText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.EventDate{
+    padding: 0.5rem 1rem;
+    background-color: #fdbe33;
+    position: absolute;
+}
+.EventDay{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+}
+.EventMonth{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+/*Mobile devices*/
+@media  only screen and (min-width:320px) and (max-width:480px) {
+    .Eventbanner{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .EventbannerHeading{
+        font-size: 4rem;
+    }
+    .EventbannersubHeading{
+        font-size: 1.8rem;
+    }
+    .EventHeading{
+        font-size: 1.8rem;
+        width: 60%;
+        text-align: center;
+    }
+    .EventMain{
+        margin: 2rem auto;
+        grid-template-columns: 1fr;
+
+    }
+    .EventItemText{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        margin-top: 0rem;
+        padding: 0.5rem;
+    }
+}
+
+/*iPads, Tablets */
+@media  only screen and (min-width:481px) and (max-width:768px) {
+    .Eventbanner{
+        width: 100%;  
+        padding: 2rem 0;     
+    }
+    .EventbannerHeading{
+        font-size: 4rem;
+    }
+    .EventbannersubHeading{
+        font-size: 1.8rem;
+    }
+    .EventHeading{
+        font-size: 1.8rem;
+        width: 60%;
+        text-align: center;
+    }
+    .EventMain{
+        margin: 2rem auto;
+        grid-template-columns: 1fr;
+
+    }
+    .EventItemText{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        margin-top: 0rem;
+        padding: 0.5rem;
+    }  
+}
+/*Small screens, laptops */
+@media only screen and (min-width:769px)and(max-width:1024px) {
+    .Eventbanner{
+        width: 100%;  
+        padding: 2rem 0;     
+    }
+    .EventbannerHeading{
+        font-size: 4rem;
+    }
+    .EventbannersubHeading{
+        font-size: 1.8rem;
+    }
+    .EventHeading{
+        font-size: 1.8rem;
+        width: 60%;
+        text-align: center;
+    }
+    .EventMain{
+        margin: 2rem auto;
+        grid-template-columns: 1fr;
+
+    }
+    .EventItemText{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        margin-top: 0rem;
+        padding: 0.5rem;
+    } 
+}

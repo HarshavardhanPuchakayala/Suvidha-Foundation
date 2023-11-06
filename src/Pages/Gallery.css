@@ -1,0 +1,132 @@
+.Gallerybanner{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./assets/TreePlantation.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem;
+
+}
+.GallerybannerSubHeading{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.GallerybannerHeading{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    line-height: 4rem;
+
+}
+.GalleryHeading{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+   
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem auto 3rem auto;
+}
+.GalleryMain{
+    width: 80%;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.GalleryItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.GalleryItemimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+.GalleryItemimg:hover{
+    cursor: pointer;
+}
+.GalleryItemName{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+/*Mobile devices*/
+@media  only screen and (min-width:320px) and (max-width:480px) {
+    .Gallerybanner{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .GallerybannerHeading{
+        font-size: 3rem;
+    }
+    .GallerybannerSubHeading{
+        font-size: 1.8rem;
+    }
+    .GalleryHeading{
+        font-size: 1.8rem;
+        width: 60%;
+        text-align: center;
+    }
+    .GalleryMain{
+        margin: 2rem auto;
+        grid-template-columns: 1fr;
+
+    }
+}
+
+/*iPads, Tablets */
+@media  only screen and (min-width:481px) and (max-width:768px) {
+    .Gallerybanner{
+        width: 100%;  
+        padding: 4rem 0;     
+    }
+    .GallerybannerHeading{
+        font-size: 4rem;
+    }
+    .EventbannersubHeading{
+        font-size: 1.8rem;
+    }
+    .GalleryHeading{
+        font-size: 1.8rem;
+        width: 60%;
+        text-align: center;
+    }
+    .GalleryMain{
+        margin: 2rem auto;
+        grid-template-columns: 1fr;
+
+    }
+}
+/*Small screens, laptops */
+@media only screen and (min-width:769px)and(max-width:1024px) {
+    .Gallerybanner{
+        width: 100%;  
+        padding: 2rem 0;     
+    }
+    .GallerybannerHeading{
+        font-size: 4rem;
+    }
+    .GallerybannerSubHeading{
+        font-size: 1.8rem;
+    }
+    .GalleryHeading{
+        font-size: 1.8rem;
+        width: 60%;
+        text-align: center;
+    }
+    .GalleryMain{
+        margin: 2rem auto;
+        grid-template-columns: 1fr;
+
+    }
+
+}

@@ -2,6 +2,7 @@ footer{
     color: whitesmoke;
     padding: 2rem;
     background-color: black;
+    height: 100%;
     font-family: 'Poppins', sans-serif;
 }
 .FooterSectionOne{
@@ -17,6 +18,9 @@ footer{
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
+}
+.FooterLogoImg{
+    width: 100%;
 }
 .FooterAddress{
     font-size: 1rem;
@@ -46,21 +50,22 @@ footer{
 .FooterLinksTwo li:hover{
     text-decoration: underline;
     color: rgb(240, 182, 10);
+    cursor: pointer;
 }
 .FooterLinksOne li:hover{
     text-decoration: underline;
     color: rgb(240, 182, 10);
+    cursor: pointer;
 }
 .GalleryImg{
     width: 100%;
 }
 .FooterSectionTwo{
-    padding: 1rem 0;
     width: 100%;
     margin: 0  auto;
     display: flex;
-    box-shadow: -0px -2px 1px rgb(151, 151, 149);
-}
+    padding: 1rem;
+    }
 .CopyRights{
     display: flex;
     align-items: center;
@@ -75,7 +80,8 @@ footer{
     font-size: 1rem;
 }
 .CopyRights span{
- color: rgb(240, 182, 10);;
+ color: rgb(240, 182, 10);
+ cursor: pointer;
 }
 .CopyRights span:hover{
     text-decoration: underline;
@@ -85,13 +91,17 @@ footer{
     align-items: center;
 }
 .SocialMediaIcons .icon{
-    padding: 1rem 0;
     font-size: 1.5rem;
     align-items: center;
     margin:0 2rem 0 auto;
-
 }
-@media screen and (min-width:300px) and (max-width:900px) {
+.SocialMediaIcons .icon:hover{
+    color: rgb(240, 182, 10);
+    cursor: pointer;
+}
+
+/*Mobile devices*/
+@media  only screen and (min-width:320px) and (max-width:480px) {
     footer{
         padding: 0rem;
     }
@@ -106,31 +116,126 @@ footer{
     .FooterHeading{
         text-align: center;
     }
+
+
     .FooterSectionTwo{
-        display: flex;
         flex-direction: column;
-        align-items: center;
-    }
+        padding: 1rem 0;
+        gap: 1rem;
+        }
     .CopyRights{
         display: flex;
         align-items: center;
-        gap:0.5rem;
-        padding-right: 1rem;
-        margin:0;
+        gap:0.2rem;
+        padding-left: 1.5rem;
+        margin:0 auto 0 0;
     
     }
     .CopyRights .FooterCopyightsText{
-        display: flex;
-        gap: 0.5rem;
-        font-size: 1rem;
+        gap: 0.3rem;
+        font-size: 0.9rem;
     }
     .SocialMediaIcons{
+        padding: 0;
+        width: 80%;
         margin: 0 auto;
     }
     .SocialMediaIcons .icon{
-        padding: 1rem 0.5rem;
         font-size: 1.5rem;
+        padding: 0;
+    }
+}
+
+/*iPads, Tablets */
+@media  only screen and (min-width:481px) and (max-width:768px) {
+    footer{
+        padding: 0rem;
+    }
+    .FooterSectionOne{
+        grid-template-columns: 1fr;
+        gap:0.5rem;
+    }
+    .FooterLogo{
+        gap: 0.5rem;
+    }
+  
+    .FooterHeading{
+        text-align: center;
+    }
+
+
+    .FooterSectionTwo{
+        flex-direction: column;
+        padding: 1rem 0;
+        gap: 0.5rem;
+        }
+    .CopyRights{
+        display: flex;
         align-items: center;
-        margin:0;
+        gap:0rem;
+        padding-left: 1.2rem;
+        margin:0 auto 0 0;
+    
+    }
+    .CopyRights .FooterCopyightsText{
+        gap: 0.4rem;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    .SocialMediaIcons{
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .SocialMediaIcons .icon{
+        font-size: 1.5rem;
+        padding: 0;
+    }
+}
+/*Small screens, laptops */
+@media only screen and (min-width:769px)and(max-width:1024px) {
+    footer{
+        padding: 0rem;
+    }
+    .FooterSectionOne{
+        grid-template-columns: 1fr;
+        gap:0.5rem;
+    }
+    .FooterLogo{
+        gap: 0.5rem;
+    }
+  
+    .FooterHeading{
+        text-align: center;
+    }
+
+
+    .FooterSectionTwo{
+        flex-direction: column;
+        padding: 1rem 0;
+        gap: 1rem;
+        }
+    .CopyRights{
+        display: flex;
+        align-items: center;
+        gap:0.2rem;
+        padding-right: 0rem;
+        margin:0 auto 0 0;
+    
+    }
+    .CopyRights .FooterCopyightsText{
+        gap: 0.3rem;
+        font-size: 0.9rem;
+    }
+
+
+    .SocialMediaIcons{
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .SocialMediaIcons .icon{
+        font-size: 1.5rem;
+        padding: 0;
     }
 }

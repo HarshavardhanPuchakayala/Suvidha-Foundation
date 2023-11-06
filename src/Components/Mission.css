@@ -1,3 +1,76 @@
+.Header{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.6),rgb(0,0,0,0.5)),url("./assets/banner1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.Slider{
+    width: 50%;
+    padding: 12rem 5rem 0 5rem;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.HeaderHeading{
+    font-size: 3rem;
+    color: #fdbe33;
+}
+.HeaderText{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+.Donate {
+    display: flex;
+    padding: 0.65rem 2rem;
+    background: transparent;
+    border: 1px solid rgb(177, 171, 171);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 4rem auto 0 auto;
+    color: #fdbe33;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
+    cursor: pointer;
+    text-shadow: 0 1px  #bab8b4;
+  }
+  
+  .Donate:hover {
+    background-color: #fdbe33;
+    color:black;
+    border: none;
+    box-shadow: 0 2px 50px black;
+  }
+  
+  @keyframes bn13bouncy {
+    0% {
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
+    }
+    50% {
+      top: 0em;
+    }
+    100% {
+      top: 0em;
+    }
+  }
 .Mission{
     width: 90%;
     margin: 2rem auto;
@@ -46,6 +119,624 @@
     cursor: pointer;
 }
 .ABoutUs:hover{
-    
     box-shadow: -1px 4px 10px #bab8b4;
+}
+.WorkWithUs{
+    background-image:linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("./assets/volunteer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 4rem;
+}   
+.InternshipContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 60%;
+    margin: 0 auto;
+}
+.InternshipHeading{
+    color: #fdbe33;
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    font-size: 3rem;
+    text-shadow: 0 -2px #83807a;
+    text-align: center;
+}
+.InternshipText{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 500;
+    text-shadow: 0 1px #83807a;
+}
+
+.Internship{
+    display: flex;
+    padding: 0.65rem 2rem;
+    background: transparent;
+    border: 1px solid rgb(177, 171, 171);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 0 auto ;
+    color: #fdbe33;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
+    cursor: pointer;
+    text-shadow: 0 1px  #bab8b4;
+}
+.Internship:hover{
+    background: #fdbe33;
+    color: white;
+    box-shadow: -1px 4px 10px #bab8b4;
+}
+.banner{
+background: url('./assets/banner5.jpg');
+background-repeat: no-repeat;
+background-position: center;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+padding: 5rem;
+color: white;
+align-items: center;
+}
+.bannerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.bannerName{
+    font-size: 1.5rem;
+    
+}
+.bannerNumber{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #e2b046; 
+    text-shadow: 0 1px  #83807a;
+}
+.bannerIcon{
+    color: white; 
+    font-size: 2rem;
+}
+/*What We Do*/
+.whatWedo{
+    width:90%;
+    margin: 2rem auto;
+}
+.whatWedoContent{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+.WhatWeDoIcon{
+    font-size: 3rem;
+}
+.SubHeading{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 1.5rem;
+}
+.Heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+}
+.WhatWeDoGrid{
+    display: grid;
+    grid-template:repeat(2,1fr)/repeat(3,1fr) ;
+    gap: 2rem;
+}
+.WhatWeDoElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.GridHeading{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-shadow: 0 1.5px 1px #bab8b4;
+}
+.GridText{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+}
+/*Events*/
+.Events{
+    margin: 1rem 0;
+    background-color: #f5eedd;
+}
+.EventContent{
+    padding: 1rem;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.EventHeading{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.EventText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.EventGrid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin: 0 auto;
+    width: 90%;
+}
+.Eventone{
+    display: flex;
+    position: relative;
+}
+.EventImg img{
+    width: 100%;
+}
+.EventGridContent{
+    width: 72%;
+    padding: 2rem 3rem 0 3rem;
+    width: 58%;
+}
+.EventGridHeading{
+    color: #fdbe33;
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    
+}
+.EventGridText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+.EventDate{
+    position: absolute;
+    bottom: 5rem;
+    left: 46%;
+    background-color: #e2b046;
+    padding: 0.5rem 1rem;
+    width: 4%;
+    text-align: center;
+    line-height: 1.6rem;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.EventDate p{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+/*Review*/
+.Review{
+    margin: 1rem 0;
+}
+.ReviewHeading{
+    text-align: center;
+    color: #e2b046;
+    font-family: 'playpen sans';
+}
+/*Mobile devices*/
+@media  only screen and (min-width:320px) and (max-width:480px) {
+
+    .Slider{
+        width: 100%;
+        padding: 6rem 0rem 0 0rem;
+        margin: 0 auto;
+        color: white;
+    }
+    
+    .HeaderHeading{
+        width: 80%;
+        font-size: 3rem;
+        color: #fdbe33;
+        margin-left: 1rem;
+    }
+    .HeaderText{
+        font-size: 1.5rem;
+        width: 80%;
+        color: whitesmoke;
+        margin-left: 1rem;
+    }
+
+    .Donate {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 3rem auto 0 auto;
+      }
+
+    .Mission{
+        width: 90%;
+        margin: 2rem auto;
+        padding: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:0.5rem;
+    }
+    .MissionIMGContainer{
+        justify-content: center;
+    }
+    .MissionImg{
+        width: 90%;
+    }
+    .MissionContent{
+        width: 90%;
+        padding: 2rem;
+        gap:0.5rem;
+        margin: 0 auto;
+    }
+    .MissionHeading{
+        font-size: 4rem;
+    }
+    
+    .missionText{
+        line-height: 2.3rem;
+        font-size: 1.5rem;
+    }
+    .ABoutUs{
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        margin: 2rem auto;
+        font-size: 1.5rem;
+    }
+    .WorkWithUs{
+        padding: 2rem 0;
+    }   
+    .InternshipContent{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .InternshipText{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    .Internship{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+/*HomeBanner*/
+    .banner{
+    background-position: left;
+    grid-template-columns:1fr;
+    padding: 5rem 2rem;
+    gap: 2rem;
+    }
+    .bannerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .bannerName{
+        font-size: 1.4rem;
+    }
+    .bannerNumber{
+        font-size: 2.5rem;
+    }
+    .bannerIcon{
+        font-size: 2rem;
+        color: white;
+    }
+    /*What We Do*/
+    .whatWedo{
+        width:90%;
+        margin: 2rem auto;
+        
+    }
+    .whatWedoContent{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .WhatWeDoIcon{
+        font-size: 4rem;
+    }
+
+    .Heading{
+        font-size: 2.8rem;
+    }
+    .WhatWeDoGrid{
+        display: grid;
+        grid-template-columns:1fr ;
+        gap: 1rem;
+    }
+    .WhatWeDoElement{
+        width: 90%;
+    }
+    .GridHeading{
+        font-size: 2rem;
+    }
+    .GridText{
+        font-size: 1.2rem;
+        padding-top: 0.2rem;
+    }
+    /*Events*/
+    .Events{
+        margin: 0;
+       
+    }
+    .EventContent{
+        padding: 1rem;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+    .EventText{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .EventGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .Eventone{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .EventImg img{
+        width: 100%;
+    }
+    .EventGridContent{
+        width: 100%;
+        padding: 0.5rem 0 2rem  0;
+    }
+    .EventGridHeading{
+        font-size: 2rem;
+    }
+    .EventGridText{
+        font-size: 1.1rem;
+    }
+   
+    .EventDate{
+        position: absolute;
+        bottom: 5rem;
+        left: 8rem;
+        top: -1rem;
+        padding: 1rem 4rem;
+        width: 10%;
+        height: 12%;
+    }
+    .ExtraDate{
+        top: 11rem;
+    }
+    .EventDate p{
+        font-size: 1.2rem;
+    }
+
+    /*Review*/
+    .Review{
+        margin: 1rem 0;
+        
+    }
+    .ReviewHeading{
+        text-align: center;
+        color: #e2b046;
+        font-family: 'playpen sans';
+    }
+}
+
+/*iPads, Tablets */
+@media  only screen and (min-width:481px) and (max-width:768px) {
+    .Slider{
+        width: 100%;
+        padding: 8rem 0rem 0 0rem;
+        margin: 0 auto;
+        color: white;
+    }
+    
+    .HeaderHeading{
+        width: 80%;
+        font-size: 3rem;
+        color: #fdbe33;
+        margin-left: 2rem;
+    }
+    .HeaderText{
+        font-size: 1.5rem;
+        width: 80%;
+        color: whitesmoke;
+        margin-left: 2rem;
+    }
+
+    .Donate {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 3rem auto 0 auto;
+      }
+/*Mission*/
+    .Mission{
+        width: 90%;
+        margin: 2rem auto;
+        padding: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:0.5rem;
+    }
+    .MissionIMGContainer{
+        justify-content: center;
+    }
+    .MissionImg{
+        width: 90%;
+    }
+    .MissionContent{
+        width: 90%;
+        padding: 2rem;
+        gap:0.5rem;
+        margin: 0 auto;
+    }
+    .MissionHeading{
+        font-size: 4rem;
+    }
+    
+    .missionText{
+        line-height: 2.3rem;
+        font-size: 1.5rem;
+    }
+    .ABoutUs{
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        margin: 2rem auto;
+        font-size: 1.5rem;
+    }
+    .WorkWithUs{
+        padding: 2rem 0;
+    }   
+    .InternshipContent{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .InternshipText{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    .Internship{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+/*HomeBanner*/
+    .banner{
+    background-position: left;
+    grid-template-columns:1fr;
+    padding: 5rem 2rem;
+    gap: 2rem;
+    }
+    .bannerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .bannerName{
+        font-size: 1.4rem;
+    }
+    .bannerNumber{
+        font-size: 2.5rem;
+    }
+    .bannerIcon{
+        font-size: 2rem;
+        color: white;
+    }
+    /*What We Do*/
+    .whatWedo{
+        width:90%;
+        margin: 2rem auto;
+        
+    }
+    .whatWedoContent{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .WhatWeDoIcon{
+        font-size: 5rem;
+    }
+
+    .Heading{
+        font-size: 2.8rem;
+    }
+    .WhatWeDoGrid{
+        display: grid;
+        grid-template-columns:1fr ;
+        gap: 1rem;
+    }
+    .WhatWeDoElement{
+        width: 90%;
+    }
+    .GridHeading{
+        font-size: 2rem;
+    }
+    .GridText{
+        font-size: 1.2rem;
+        padding-top: 0.2rem;
+    }
+    /*Events*/
+    .Events{
+        margin: 0;
+       
+    }
+    .EventContent{
+        padding: 1rem;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+    .EventText{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .EventGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .Eventone{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .EventImg img{
+        width: 100%;
+    }
+    .EventGridContent{
+        width: 100%;
+        padding: 0.5rem 0 2rem  0;
+    }
+    .EventGridHeading{
+        font-size: 2rem;
+    }
+    .EventGridText{
+        font-size: 1.1rem;
+    }
+   
+    .EventDate{
+        position: absolute;
+        bottom: 5rem;
+        left: 14rem;
+        top: -1rem;
+        padding: 1rem 4rem;
+        width: 10%;
+        height: 12%;
+    }
+    .ExtraDate{
+        top: 8rem;
+    }
+    .EventDate p{
+        font-size: 1.2rem;
+    }
+
+    /*Review*/
+    .Review{
+        margin: 1rem 0;
+        
+    }
+    .ReviewHeading{
+        text-align: center;
+        color: #e2b046;
+        font-family: 'playpen sans';
+    }
 }

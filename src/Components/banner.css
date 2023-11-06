@@ -1,0 +1,114 @@
+.BannerSection{
+    margin: 2rem 0;
+}
+.Banner{
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url('./assets/banner3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.BannerContent{
+    text-align: center;
+    padding: 4rem 0;
+}
+.BannerHeading{
+    font-family: 'Playpen Sans','Poppins', sans-serif;
+    color: #fdbe33;
+    font-size: 2.5rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.volunteer{
+    padding: 0.5rem 2rem;
+    margin: 2rem 0;
+    background-color: #fdbe33;
+    border: none;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.donate{
+    padding: 0.5rem 2rem;
+    margin: 2rem 0;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fdbe33;
+    background-color: transparent;
+    border: 1px solid #fdbe33;
+}
+
+  
+.donate:hover {
+    background-color: #fdbe33;
+    color:black;
+    box-shadow: 0 1px 10px black;
+    cursor: pointer;
+  }
+.volunteer:hover{
+    background-color: transparent;
+    color: #fdbe33;
+    box-shadow: 0 1px 10px black;
+    cursor: pointer;
+    border: 1px solid #fdbe33;
+}
+/*Mobile devices*/
+@media  only screen and (min-width:320px) and (max-width:480px) {
+    .BannerContent{
+        padding: 0;
+    }
+    .btn{
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 0rem;
+    }
+    .volunteer{
+        margin: 1rem auto;
+    }
+    .donate{
+        margin: 1rem auto;
+    }
+}
+
+/*iPads, Tablets */
+@media  only screen and (min-width:481px) and (max-width:768px) {
+    .BannerContent{
+    padding: 1rem;
+}
+.btn{
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0rem;
+}
+.volunteer{
+    margin: 1rem auto;
+}
+.donate{
+    margin: 1rem auto;
+}
+     
+}
+/*Small screens, laptops */
+@media only screen and (min-width:769px)and(max-width:1024px) {
+    .BannerContent{
+        padding: 2rem;
+    }
+    .btn{
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 0rem;
+    }
+    .volunteer{
+        margin: 1rem auto;
+    }
+    .donate{
+        margin: 1rem auto;
+    }
+}
