@@ -11,16 +11,13 @@ export default function Banner() {
         You can contribute to provide a<br/> better place for Better Future!
         </h1>
         <div className="btn">
-        <button className='volunteer'>
-          <Link to="/Internship">
+          <Link to="/Internship" className='volunteer'>
             join as a volunteer
             </Link>
-        </button>
-        <button className='donate'>
-          <Link to="/Donate">
+
+          <Link to="/Donate" className='donate'>
             Donate
             </Link>
-        </button>
         </div>
         </div>
         </div>

@@ -1,0 +1,192 @@
+/*
+<div className='NavBarContainer'>
+
+-------
+.NavBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 40px;
+}
+*/
+
+.TransNav{
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+  right: 1rem;
+  gap: 30rem;
+}
+.Navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+label img{
+    width: 100%;
+}
+
+.menu-icon{
+    display: none;
+    color: whitesmoke;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.nav-elements ul {
+  display: flex;
+  gap:3rem;
+  color: white;
+  list-style-type: none;
+}
+
+.nav-elements ul li {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  font-family: 'poppins';
+}
+
+header li a::after{
+  content: "";
+  width: 0;
+  background-color: #fdbe33;
+  height: 3px;
+  display: flex;
+  transition: 0.5s;
+}
+header a:hover::after{
+  width: 100%;
+}
+header a:hover{
+  color: #fdbe33;
+  transition: 0.5s;
+}
+header a:active , header a:focus {
+  color: #fdbe33;
+  border-bottom: 4px solid #fdbe33;
+}
+
+/*Mobile and Tablet*/
+@media (max-width: 480px) {
+  .TransNav{
+    gap: 10%;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    z-index: 4;
+    color: white;
+  }
+header img{
+  width: 100%
+}
+  .nav-elements {
+    position: absolute;
+    width: 0;
+    height: 70vh;
+    overflow: hidden;
+    right: 0%;
+    top: 0;
+    transition: all 0.3s ease-in;
+  }
+  .nav-elements.active {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.8s;
+    color: white;
+  }
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    padding-left: 20px;
+    margin-left: 0;
+  }
+  .nav-elements ul li {
+    margin-right: auto;
+  }
+}
+@media (max-width:580px){
+  .TransNav{
+    gap: 50%;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    z-index: 4;
+    color: white;
+  }
+header img{
+  width: 80%;
+}
+  .nav-elements {
+    position: absolute;
+    width: 0;
+    height: 70vh;
+    overflow: hidden;
+    right: 0%;
+    top: 0;
+    transition: all 0.3s ease-in;
+  }
+  .nav-elements.active {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.8s;
+    color: white;
+  }
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    padding-left: 20px;
+    margin-left: 0;
+  }
+  .nav-elements ul li {
+    margin-right: auto;
+  }
+}
+@media (max-width:770px){
+  .TransNav{
+    gap: 50%;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    z-index: 4;
+    color: white;
+  }
+header img{
+  width: 800px;
+}
+  .nav-elements {
+    position: absolute;
+    width: 0;
+    height: 70vh;
+    overflow: hidden;
+    right: 0%;
+    top: 0;
+    transition: all 0.3s ease-in;
+  }
+  .nav-elements.active {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.8s;
+    color: white;
+  }
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    padding-left: 20px;
+    margin-left: 0;
+  }
+  .nav-elements ul li {
+    margin-right: auto;
+    margin-top: 22px;
+  }
+}

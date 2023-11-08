@@ -6,17 +6,17 @@ import { GiPlantWatering,GiTeacher } from 'react-icons/gi';
 import { RiMentalHealthLine } from 'react-icons/ri';
 import { MdOutlineHealthAndSafety } from 'react-icons/md';
 import Collaboration from '../Components/Collaboration'
+import Review from './Review';
 import {Link} from 'react-router-dom';
 export default function Misson() {
   return (
     <>
+
   <header className='Header'>
       <div className='Slider'>
-      <h1 className='HeaderHeading'>Better Care and Better World</h1>
+      <h1 className='HeaderHeading'>Better Care for Better World</h1>
       <p className="HeaderText">You have a good life,some other don't</p>
-      <button className='Donate'>
-      <Link to="/Donate">Donate</Link>
-        </button>
+      <Link to="/Donate" className='Donate'>Donate</Link>
     </div>
 </header>
 
@@ -28,11 +28,11 @@ export default function Misson() {
             <h1 className="MissionHeading">About Us</h1>
             <p className="missionText">Suvidha Mahila Mandal is a non-profit organization working to impart education among the financially challenged sections to help them realize parity in education and strength of little minds in building a promising future.The organization has provisions of student internships, student mentorship and the scope to volunteer. Through these programmes, the organization aims to achieve the vision of imparting innovative education that stays with the students forever and equip them for the unforeseen future.
 </p>
-            <button className='ABoutUs'>
-            <Link to="/About">
+         
+            <Link to="/About" className='ABoutUs'>
                 Learn More
                 </Link>
-                </button>
+               
         </div>
     </section>
 
@@ -41,11 +41,11 @@ export default function Misson() {
         <div className='InternshipContent'>
         <h1 className='InternshipHeading'>Apply For Internship<br/> &<br/> Become a Member</h1>
         <p className='InternshipText'>The Suvidha Foundation Internship Program is a unique opportunity for students and recent graduates to gain experience and Work with us.</p>
-        <button className='Internship'>
-            <Link to="/Internship">
+
+            <Link to="/Internship" className='Internship'>
             Apply Now
             </Link>
-            </button>
+
         </div>
     </section>
 
@@ -191,7 +191,7 @@ export default function Misson() {
                     Your generous contributions can fill empty plates and bring smiles to those in need. Together, we can create a world where everyone has access to nutritious meals.
                     </p>
                     
-                    <span className='EventDate ExtraDate'>
+                    <span className='EventDate ExtraDate1'>
                         <p className="date">
                             JUL 15
                         </p>
@@ -224,10 +224,12 @@ export default function Misson() {
     </section>
 
     <Collaboration/>
-    <section className='Review'>
+
+    <section className='ReviewHome'>
         <h1 className="ReviewHeading">
         What People Say About Us..?
         </h1>
+        <Review/>
     </section>
     </>
   )

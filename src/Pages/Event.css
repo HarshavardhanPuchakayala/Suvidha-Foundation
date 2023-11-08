@@ -11,12 +11,14 @@
     font-size: 1.5rem;
     margin-top: 2rem;
     margin-left: 2rem;
+    font-weight: 600;
 }
 .EventbannerHeading{
     font-family:'Poppins', sans-serif;
     color: white;
     font-size: 3.5rem;
     margin-left: 2rem;
+    font-weight: bolder;
 }
 .EventHeading{
     font-family: 'Playpen Sans','Poppins', sans-serif;
@@ -25,6 +27,7 @@
     margin: 2rem auto;
     width: 50%;
     text-align: center;
+    font-weight: bolder;
 }
 
 .EventMain{
@@ -50,19 +53,23 @@
     color: #fdbe33;
     font-size: 1.8rem;
     margin-top: 1rem;
+    font-weight: 900;
 }
 .EventItemText{
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     margin-top: 1rem;
+    font-weight: 500;
 }
-.EventDate{
+.EventDateSection{
     padding: 0.5rem 1rem;
     background-color: #fdbe33;
     position: absolute;
+    text-align: center;
 }
 .EventDay{
     font-family: 'Playpen Sans','Poppins', sans-serif;
+    font-weight: bolder;
 }
 .EventMonth{
     font-family: 'Poppins', sans-serif;

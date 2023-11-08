@@ -7,7 +7,7 @@ export default function EventMain(props) {
         <h1 className='EventItemName'>{props.item.name}</h1>
         <p className='EventItemText'>{props.item.text}</p>
     
-    <div className="EventDate">
+    <div className="EventDateSection">
       <h1 className='EventDay'>{props.item.date}</h1>
       <p className="EventMonth">{props.item.Month}</p>
     </div>

@@ -14,6 +14,7 @@
     font-family: 'Poppins';
     font-size: 3rem;
     color: white;
+    font-weight: bolder;
 }
 /*Container*/
 .Container{
@@ -23,6 +24,7 @@
     width: 80%;
     padding: 2rem;
     margin: 3rem auto;
+    
 }
 .ClothDistribution,.TreePlantaion{
     display: flex;
@@ -40,10 +42,12 @@
     color: #fdbe33;
     font-size: 1.5rem;
     font-weight: 600;
+    
 }
 .content h1{
         font-family: 'Poppins', sans-serif;
         font-size: 2.8rem;
+        font-weight: 700;
 }
 .ContentText{
     font-family: 'Poppins', sans-serif;
@@ -72,14 +76,18 @@
 .HelpWithUs h3{
     font-family: 'Playpen Sans','Poppins', sans-serif;
     color: #fdbe33;
+    font-weight: 800;
+    font-size: 1.1rem;
 }
 .HelpWithUs h1{
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
+    font-weight: 800;
 }
 .Paragrapgh1,.paragrapgh3{
     font-family: 'Poppins', sans-serif; 
     font-size: 1.2rem;
+    
 }
 .Paragrapgh2{
     font-family: 'Poppins', sans-serif;
@@ -91,6 +99,7 @@
 .FormDiv h1{
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
+    font-weight: 600;
 }
 .FormDiv p{
     font-family: 'Playpen Sans','Poppins', sans-serif;

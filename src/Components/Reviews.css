@@ -1,0 +1,85 @@
+.Reviews{
+    width:80%;
+    margin: 2rem auto;
+  }
+  .Card{
+    padding: 1rem 0;
+  background-color: aliceblue;
+  border: none;
+  box-shadow: 0 -1px 0px #d2cec5;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  height: 35vh;
+  }
+  /* the slides */
+  .slick-slide div{
+   margin: 0rem 10px;
+  }
+  
+  /* the parent */
+  .slick-list {
+    margin: 0 -10px;
+  }
+  .CardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.2rem;
+  }
+  .CardContent img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 0 auto;
+  }
+ 
+  .CardContent h2{
+    font-family: 'Playpen Sans', 'cursive';
+    color: #fdbe33;
+    text-align: center;
+    font-weight: 800;
+  }
+  .CardContent p{
+    font-family: 'Playpen Sans', 'cursive';
+    color: black;
+    font-size: 0.9rem;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+  /*Mobile devices*/
+@media  only screen and (min-width:320px) and (max-width:480px) {
+      .Card{
+        padding: 2rem 0;
+      }
+
+      .CardContent img{
+        width: 25%;
+      }
+     
+      .CardContent h2{
+        font-size: 1.5rem;
+        
+      }
+
+}
+
+/*iPads, Tablets */
+@media  only screen and (min-width:481px) and (max-width:768px) {
+    .Card{
+        padding: 2rem 0;
+        height: 38vh;
+      }
+
+      .CardContent img{
+        width: 50%;
+      }
+     
+      .CardContent h2{
+        font-size: 1rem;
+      }
+      .CardContent p{
+        font-size: 0.7rem;
+      }
+}

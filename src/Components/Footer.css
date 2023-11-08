@@ -44,15 +44,19 @@ footer{
     padding: 1rem;
     line-height: 2rem;
 }
+li a{
+    color: #fff;
+}
+
 .FooterLinksOne li,.FooterLinksTwo li{
     font-size: 1rem;
 }
-.FooterLinksTwo li:hover{
+.FooterLinksTwo li a:hover{
     text-decoration: underline;
     color: rgb(240, 182, 10);
     cursor: pointer;
 }
-.FooterLinksOne li:hover{
+.FooterLinksOne li a:hover{
     text-decoration: underline;
     color: rgb(240, 182, 10);
     cursor: pointer;
@@ -95,7 +99,10 @@ footer{
     align-items: center;
     margin:0 2rem 0 auto;
 }
-.SocialMediaIcons .icon:hover{
+.SocialMediaIcons  a{
+    color: #fff;
+}
+.SocialMediaIcons a:hover{
     color: rgb(240, 182, 10);
     cursor: pointer;
 }

@@ -9,7 +9,7 @@ export default function Internship() {
             <div className="Content">
                 <p className="ApplyInternshipHeader">Join us...</p>
                 <h1 className='ApplyInternshipSubHeading'>Join Our Impactful Internship Program and Make a Difference.</h1>
-                <button className='ApplyNow'><Link to="https://docs.google.com/forms/d/e/1FAIpQLSdPAVP_An-H2y9DgR9kgmMrroeBk3kZJVUR93IC1vJevWM6BA/viewform" target='_blank'>Apply Now For Internship</Link></button>
+               <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdPAVP_An-H2y9DgR9kgmMrroeBk3kZJVUR93IC1vJevWM6BA/viewform" target='_blank' className='ApplyNow'>Apply Now For Internship</Link>
             </div>
         </section>
         <section className='IntershipMain'>
