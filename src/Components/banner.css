@@ -61,7 +61,7 @@
     border: 1px solid #fdbe33;
 }
 /*Mobile devices*/
-@media  only screen and (min-width:320px) and (max-width:480px) {
+@media  only screen and (min-width:100px) and (max-width:480px) {
     .BannerContent{
         padding: 0;
     }

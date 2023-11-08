@@ -60,7 +60,7 @@ header a:active , header a:focus {
 }
 
 /*Mobile and Tablet*/
-@media (max-width: 480px) {
+@media (min-width:100px) and (max-width: 480px) {
 
 
   .menu-icon {
