@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 5rem 0;
-    height: 70vh;
+    height: 100%;
 }
 .Slider{
     display: flex;
@@ -190,7 +190,7 @@
     box-shadow: -1px 4px 10px #bab8b4;
 }
 .banner{
-background: url('./assets/banner5.jpg');
+background: url('/assets/banner5.jpg');
 background-repeat: no-repeat;
 background-position: center;
 display: grid;
@@ -538,7 +538,7 @@ align-items: center;
         bottom: 5rem;
         left: 8rem;
         top: -1rem;
-        padding: 1rem 4rem;
+        padding: 1rem 0rem;
         width: 22%;
         height: 15%;
     }
@@ -748,9 +748,9 @@ align-items: center;
         bottom: 5rem;
         left: 14rem;
         top: -1rem;
-        padding: 1rem 4rem;
+        padding: 1rem;
         width: 12%;
-        height: 12%;
+        height: 15%;
     }
     .ExtraDate{
         top: 8rem;
@@ -773,4 +773,26 @@ align-items: center;
         color: #e2b046;
         font-family: 'playpen sans';
     }
+}
+
+/*Extra large screens, TV */
+@media only screen and (min-width:1201px){
+    .EventDate{
+        position: absolute;
+        bottom: 5rem;
+        left: 18rem;
+        padding: 1rem 2rem;
+        width: 20%;
+        height: 35%;
+    }
+    .ExtraDate{
+       left: 12rem;
+    }
+    .ExtraDate1{
+        left: 14rem;
+    }
+    .EventDate p{
+        font-size: 1.2rem;
+    }
+  
 }

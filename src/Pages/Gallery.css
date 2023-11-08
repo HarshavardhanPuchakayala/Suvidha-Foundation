@@ -1,5 +1,5 @@
 .Gallerybanner{
-    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./assets/TreePlantation.jpg');
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('/assets/TreePlantation.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

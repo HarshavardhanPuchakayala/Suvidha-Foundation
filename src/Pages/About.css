@@ -1,5 +1,5 @@
 .Aboutbanner{
-    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./assets/Aboutbanner.jpg');
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('/assets/Aboutbanner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 8rem 8rem 5rem 8rem;

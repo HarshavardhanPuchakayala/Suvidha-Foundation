@@ -1,27 +1,18 @@
-/*
-<div className='NavBarContainer'>
 
--------
-.NavBarContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 40px;
-}
-*/
 
 .TransNav{
   position: absolute;
   z-index: 1;
   background-color: transparent;
   right: 1rem;
-  gap: 30rem;
+  
 }
 .Navbar2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 3rem;
+  width: 100%;
 }
 label img{
     width: 100%;
@@ -70,9 +61,7 @@ header a:active , header a:focus {
 
 /*Mobile and Tablet*/
 @media (max-width: 480px) {
-  .TransNav{
-    gap: 10%;
-  }
+
 
   .menu-icon {
     display: block;
@@ -110,9 +99,6 @@ header img{
   }
 }
 @media (max-width:580px){
-  .TransNav{
-    gap: 50%;
-  }
 
   .menu-icon {
     display: block;
@@ -150,9 +136,6 @@ header img{
   }
 }
 @media (max-width:770px){
-  .TransNav{
-    gap: 50%;
-  }
 
   .menu-icon {
     display: block;
@@ -190,3 +173,4 @@ header img{
     margin-top: 22px;
   }
 }
+

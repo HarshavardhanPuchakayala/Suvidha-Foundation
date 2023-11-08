@@ -4,6 +4,10 @@ footer{
     background-color: black;
     height: 100%;
     font-family: 'Poppins', sans-serif;
+    
+}
+footer ul{
+    list-style-type: none;
 }
 .FooterSectionOne{
     width: 90%;

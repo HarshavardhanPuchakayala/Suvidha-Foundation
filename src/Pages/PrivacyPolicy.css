@@ -1,7 +1,7 @@
 /*Banner*/
 .PrivacyPolicySection{
     width: 100%;
-    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./assets/banner2.jpg');
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('/assets/banner2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
