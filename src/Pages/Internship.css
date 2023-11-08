@@ -103,7 +103,7 @@
     font-weight: 400;
   }
   .Review{
-    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("./assets/Contact.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("/assets/Contact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
