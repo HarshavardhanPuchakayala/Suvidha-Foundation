@@ -135,7 +135,7 @@
     box-shadow: -1px 4px 10px #bab8b4;
 }
 .WorkWithUs{
-    background-image:linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("./assets/volunteer.jpg");
+    background-image:linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("/assets/volunteer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -324,16 +324,22 @@ align-items: center;
 .EventDate{
     position: absolute;
     bottom: 5rem;
-    left: 46%;
+    left: 50%;
     background-color: #e2b046;
-    padding: 0.5rem 1rem;
-    width: 4%;
+    padding: 0.5rem;
+    width: 10%;
     text-align: center;
     line-height: 1.6rem;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: black;
+}
+.ExtraDate{
+    left: 40%;
+}
+.ExtraDate1{
+    left: 40%;
 }
 .EventDate p{
     font-family: 'Playpen Sans','Poppins', sans-serif;
@@ -543,7 +549,7 @@ align-items: center;
         height: 15%;
     }
     .ExtraDate{
-        top: 14rem;
+        top: 10rem;
     }
     .ExtraDate1{
         top:11rem;
@@ -777,22 +783,6 @@ align-items: center;
 
 /*Extra large screens, TV */
 @media only screen and (min-width:1201px){
-    .EventDate{
-        position: absolute;
-        bottom: 5rem;
-        left: 18rem;
-        padding: 1rem 2rem;
-        width: 20%;
-        height: 35%;
-    }
-    .ExtraDate{
-       left: 12rem;
-    }
-    .ExtraDate1{
-        left: 14rem;
-    }
-    .EventDate p{
-        font-size: 1.2rem;
-    }
+  
   
 }
